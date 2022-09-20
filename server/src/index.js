@@ -26,7 +26,7 @@ const { register, login, newToken } = require("./controllers/auth.controller");
 // register
 app.post("/register", register);
 // .login
-app.post("/login", login);
+app.post("/login", login); 
 
 
 
