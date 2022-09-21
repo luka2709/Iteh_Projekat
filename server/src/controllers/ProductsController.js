@@ -13,7 +13,7 @@ router.post("", async (req, res) => {
   }
 });
 
-// find all   http://localhost:2345/product
+
 
 router.get("", async (req, res) => {
   try {
@@ -25,7 +25,7 @@ router.get("", async (req, res) => {
   }
 });
 
-// find by id  http://localhost:2345/product/id/6280f7c90
+
 router.get("/id/:id", async (req, res) => {
   console.log(req.params.id);
   try {
@@ -37,7 +37,7 @@ router.get("/id/:id", async (req, res) => {
   }
 });
 
-// added filter of category discount rating sorting http://localhost:2345/product/women-tops?discount=60&rating=3.7
+
 
 
 router.get("/:id", async (req, res) => {
@@ -69,4 +69,3 @@ router.get("/:id", async (req, res) => {
 module.exports = router;
 
 
-// https://e-commerce-reacttt.herokuapp.com/

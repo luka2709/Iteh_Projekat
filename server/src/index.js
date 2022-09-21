@@ -19,13 +19,12 @@ const passport = require("./configs/google-oauth");
 
 app.use(cors());
 
-// const userController = require("./controllers/user.controller");
-// const productController = require("./controllers/product.controller");
+
 const { register, login, newToken } = require("./controllers/auth.controller");
 
-// register
+
 app.post("/register", register);
-// .login
+
 app.post("/login", login); 
 
 
