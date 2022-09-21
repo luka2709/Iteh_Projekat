@@ -5,8 +5,7 @@ import Category from "../CategoryOfProducts/Category";
 import { Route, Routes } from "react-router-dom";
 import Login from "../Login/Login";
 import Register from "../Register/Register";
-import Blog from "../Blog/Blog";
-import Contact from "../ContactUs/ContactUs";
+
 import CartPage from "../CartPage/CartPage";
 import ProductDescriptionPage from "../ProductDescriptionPage/ProductDescriptionPage";
 import CategoryPage from "../CategoryPage/CategoryPage";
@@ -36,9 +35,9 @@ export default function Routerss() {
 
         <Route path="/register" element={<Register />} />
 
-        <Route path="/blog" element={<Blog />} />
+        
 
-        <Route path="/contact_us" element={<Contact />} />
+        
 
         <Route path="/cart" element={<CartPage />} />
 
